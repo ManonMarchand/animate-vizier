@@ -1,7 +1,7 @@
 extends ColorRect
 
 @export var dialogPath:String = "res://assets/dialog.json"
-@export var textSpeed:float = 10.0
+@export var textSpeed:float = 0.05
 
 var dialog
 
@@ -14,7 +14,7 @@ func _ready():
 	assert(dialog, "Dialog not found")
 	nextPhrase()
 	
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("ui_accept"):
 		if finished:
 			nextPhrase()
