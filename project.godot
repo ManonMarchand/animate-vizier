@@ -15,6 +15,10 @@ run/main_scene="res://assets/background.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
 config/icon="res://icon.svg"
 
+[editor]
+
+movie_writer/movie_file="/home/manon.marchand/Documents/my-personal-github/animate-vizier/movie/movie.avi"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
