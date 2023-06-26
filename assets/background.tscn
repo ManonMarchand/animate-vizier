@@ -110,7 +110,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(1, 1.1)]
+"values": [Vector2(0.909, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_xpmfe"]
@@ -132,7 +132,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 1.2, 1.4, 1.6, 3),
 "transitions": PackedFloat32Array(1, 2, 0.784584, 1.27456, 0.535887),
 "update": 0,
-"values": [Vector2(0.7, 0.7), Vector2(0.9, 0.9), Vector2(0.8, 0.8), Vector2(0.9, 0.9), Vector2(0.7, 0.7)]
+"values": [Vector2(0.6, 0.6), Vector2(0.8, 0.8), Vector2(0.7, 0.7), Vector2(0.8, 0.8), Vector2(0.6, 0.6)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_j0dt6"]
@@ -297,22 +297,23 @@ text = "data is available to all"
 [node name="Node2D" type="Node2D" parent="logos"]
 
 [node name="Polygon2D" type="Polygon2D" parent="logos"]
-position = Vector2(96, 24)
+position = Vector2(78, 28)
 polygon = PackedVector2Array(736, 120, 1184, 176, 1168, 224, 728, 168)
 
 [node name="Eosc" type="Sprite2D" parent="logos"]
-position = Vector2(971, 182)
+position = Vector2(971, 172)
 scale = Vector2(0.37358, 0.37358)
 texture = ExtResource("21_qs2pi")
 
 [node name="B2Find" type="Sprite2D" parent="logos"]
-position = Vector2(705, 160)
+position = Vector2(699, 153)
 scale = Vector2(0.366505, 0.366505)
 texture = ExtResource("22_kijb1")
 
 [node name="Ivoa" type="Sprite2D" parent="logos"]
-position = Vector2(519, 136)
-scale = Vector2(0.380841, 0.380841)
+position = Vector2(517, 131)
+rotation = 0.0349066
+scale = Vector2(0.35, 0.35)
 texture = ExtResource("23_wxfq7")
 
 [node name="small_lighthouse" type="Node2D" parent="."]
@@ -340,7 +341,7 @@ texture = ExtResource("3_o2xjn")
 [node name="Rays" type="Sprite2D" parent="small_lighthouse"]
 position = Vector2(684, 341.55)
 rotation = -0.0349066
-scale = Vector2(1, 1.1)
+scale = Vector2(0.909, 1)
 texture = ExtResource("4_s3qvl")
 script = ExtResource("5_36bue")
 
