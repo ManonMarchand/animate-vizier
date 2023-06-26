@@ -210,14 +210,14 @@ libraries = {
 
 [node name="Timer" type="Timer" parent="dialog_box"]
 
-[node name="big_lighthouse" type="Node2D" parent="."]
+[node name="step1" type="Node2D" parent="."]
 
-[node name="Bottom1" type="Sprite2D" parent="big_lighthouse"]
+[node name="Bottom1" type="Sprite2D" parent="step1"]
 position = Vector2(160, 592)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("15_lugbp")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="big_lighthouse/Bottom1"]
+[node name="RichTextLabel" type="RichTextLabel" parent="step1/Bottom1"]
 offset_left = 220.0
 offset_top = -40.0
 offset_right = 660.0
@@ -226,12 +226,19 @@ theme = ExtResource("12_45yph")
 bbcode_enabled = true
 text = "peer reviewed datasets"
 
-[node name="Bottom2" type="Sprite2D" parent="big_lighthouse"]
+[node name="G13757" type="Sprite2D" parent="step1"]
+position = Vector2(456, 608)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("19_v8gd8")
+
+[node name="step2" type="Node2D" parent="."]
+
+[node name="Bottom2" type="Sprite2D" parent="step2"]
 position = Vector2(165, 491)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("16_vlxm8")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="big_lighthouse/Bottom2"]
+[node name="RichTextLabel" type="RichTextLabel" parent="step2/Bottom2"]
 offset_left = 210.0
 offset_top = -37.4999
 offset_right = 660.0
@@ -240,12 +247,14 @@ theme = ExtResource("12_45yph")
 text = "preparation (metadata & standards)"
 metadata/_edit_use_anchors_ = true
 
-[node name="Bottom3" type="Sprite2D" parent="big_lighthouse"]
+[node name="step3" type="Node2D" parent="."]
+
+[node name="Bottom3" type="Sprite2D" parent="step3"]
 position = Vector2(170, 370)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("17_j5ixb")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="big_lighthouse/Bottom3"]
+[node name="RichTextLabel" type="RichTextLabel" parent="step3/Bottom3"]
 offset_left = 202.5
 offset_top = -35.0
 offset_right = 662.5
@@ -253,12 +262,14 @@ offset_bottom = 97.0
 theme = ExtResource("12_45yph")
 text = "submission"
 
-[node name="Bottom4" type="Sprite2D" parent="big_lighthouse"]
+[node name="step4" type="Node2D" parent="."]
+
+[node name="Bottom4" type="Sprite2D" parent="step4"]
 position = Vector2(176, 220)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("18_jqtu8")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="big_lighthouse/Bottom4"]
+[node name="RichTextLabel" type="RichTextLabel" parent="step4/Bottom4"]
 offset_left = 193.0
 offset_top = 45.0
 offset_right = 548.0
@@ -266,17 +277,14 @@ offset_bottom = 172.0
 theme = ExtResource("12_45yph")
 text = "curation & verification"
 
-[node name="G13757" type="Sprite2D" parent="big_lighthouse"]
-position = Vector2(456, 608)
-scale = Vector2(0.4, 0.4)
-texture = ExtResource("19_v8gd8")
+[node name="step5" type="Node2D" parent="."]
 
-[node name="Rays" type="Sprite2D" parent="big_lighthouse"]
+[node name="Rays" type="Sprite2D" parent="step5"]
 position = Vector2(729, 176)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("20_eho32")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="big_lighthouse/Rays"]
+[node name="RichTextLabel" type="RichTextLabel" parent="step5/Rays"]
 offset_left = -610.0
 offset_right = 90.0
 offset_bottom = 92.0
@@ -285,6 +293,8 @@ theme = ExtResource("12_45yph")
 text = "data is available to all"
 
 [node name="logos" type="Node2D" parent="."]
+
+[node name="Node2D" type="Node2D" parent="logos"]
 
 [node name="Polygon2D" type="Polygon2D" parent="logos"]
 position = Vector2(96, 24)
@@ -329,6 +339,7 @@ texture = ExtResource("3_o2xjn")
 
 [node name="Rays" type="Sprite2D" parent="small_lighthouse"]
 position = Vector2(684, 341.55)
+rotation = -0.0349066
 scale = Vector2(1, 1.1)
 texture = ExtResource("4_s3qvl")
 script = ExtResource("5_36bue")
