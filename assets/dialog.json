@@ -1,27 +1,24 @@
 [
-    {"text": "Every field of science generates data. But how does this reaches the European Open Science Cloud (EOSC)?",
+    {"text": "Every field of science generates data. But how does this reach the European Open Science Cloud (EOSC)?",
     "step": 0},
-    {"text": "Here, we'll see how this is done for the catalogs of the Vizier database.",
+    {"text": "Here, we'll see how this is done for the catalogs of the VizieR database.",
     "step": 0},
     {"text": "It starts with everyone publishing papers with data in it.",
     "step": 1},
-    {"text": "All the authors of peer-reviewd datasets make sure that their data is easy to reuse by using standard names, precise coordinates and extensible description",
+    {"text": "All the authors of peer-reviewed datasets make sure that their data are easy to reuse by using standard names, precise coordinates and extensive description.",
     "step": 2},
-    {"text": "Then, either the authors submit their data themselves or the VizieR team of curators identify crutial datasets",
+    {"text": "Then, either the authors submit their data themselves or the VizieR team of curators identify crucial datasets.",
     "step": 3},
-    {"text": "Every table, FITS file and spectra is manually edited and verified to be sure that everything is reusable and inter-operable.",
-    "step": 4
-    },
+    {"text": "Every table, FITS spectra and images are carefully verified to be sure that everything is reusable and interoperable.",
+    "step": 4},
     {"text": "And TADA! A new dataset is viZible for everyone.",
-    "step": 5
-    },
+    "step": 5},
     {"text": "But let's zoom in the ray that reaches EOSC.",
-    "step": 5
-    },
-    {"text": "The IVOA (International Virtual Observatory Association) registry gathers the data from ViZieR, and other astronomical data centers",
-    "step": 6
-    },
-    {"text": "The datasets reach a broader audience when B2Find and the EOSC registries gather information about everything emitted by the IVOA registry.",
-    "step": 7
-    }
+    "step": 5},
+    {"text": "The IVOA (International Virtual Observatory Alliance) registry gathers the data from ViZieR, and other astronomical data centers.",
+    "step": 6},
+    {"text": "The datasets then reach a broader audience when B2Find and the EOSC registries gather information about everything emitted by the IVOA registry.",
+    "step": 7},
+    {"text": "In this way the familiar processes of publishing data become part of the wider EOSC system.",
+    "step": 7}
 ]
